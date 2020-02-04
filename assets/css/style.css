@@ -1,0 +1,148 @@
+body {
+    font-size: 18px;
+    line-height: 25px;
+    color: #333;
+    width: 100%;
+    background-image: url(images/criss-cross.png);
+    padding: 0 15% 15% 15%;
+    display: flex;
+    box-sizing: border-box;
+    border: 2px solid #4aaaa5;
+    height: 100vh;
+    margin: auto;
+    overflow: scroll;
+}
+
+.Container {
+    position: fixed;
+    margin-right: auto;
+    margin-left: auto;
+    align-self: center;
+    top: 0%;
+}
+
+header {
+    background: #ffffff;
+    height: 65px;
+    top: 0%;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+    width: 100%;
+}
+
+.Container2 {
+    max-width: 960px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    align-self: center;
+    top: 0%;
+    padding: 0 0 20px 0;
+}
+
+#Name {
+    background: #4aaaa5;
+    width: 18%;
+    text-align: center;
+    color: white;
+    top: 0%;
+    position: relative;
+    overflow: inherit;
+    padding: 0 0 10px 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+    top: 0%;
+    right: 0%;
+    position: absolute;
+    margin: 0 0 20px 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+li {
+    float: left;
+    color: #666;
+    border-right: 1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: #666;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(165, 162, 162);
+}
+
+.Main {
+    background: #ffffff;
+    width: 960px;
+    height: 300px;
+    border: 1px solid #dddddd;
+}
+
+.submit {
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+    transition-duration: 0.4s;
+    font-size: 12px;
+    background-color: #ffffff;
+}
+
+.submit:hover {
+    background-color: gray;
+    color: white;
+}
+
+#fixed-footer {
+    position: fixed;
+    bottom: 0;
+    height: 20px;
+    background: #666666;
+    padding: 20px 0;
+    width: 960px;
+}
+
+#Title {
+    padding: 10px;
+    margin: 10px;
+    color: #4aaaa5;
+    border-bottom: #bbb solid 1px;
+    font-weight: bold;
+}
+
+#profile {
+    margin: 10px;
+    padding: 10px;
+    height: 30px;
+    width: 30px;
+    border: #bbb solid 1px;
+}
+
+#statement {
+    display: inline;
+}
+
+#inputs {
+    position: absolute;
+    width: 100%;
+}
